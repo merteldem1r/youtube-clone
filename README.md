@@ -1,7 +1,7 @@
 # React Youtube Clone
 React Youtube Clone project which I implemented from JSM Media course made with Material UI. Here I used React router, reusable components, utils and many other react features.
 
-https://merteldem1r-quizzical.netlify.app/
+https://merteldem1r-youtube-clone.netlify.app/
 
 
 # App Preview
