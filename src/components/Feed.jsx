@@ -33,7 +33,7 @@ const Feed = () => {
           maxWidth={200}
           sx={{ color: "#fff", opacity: ".9", textAlign:"center" }}
         >
-          Implemented By Mert Eldemir from JSM Media
+          Implemented By Mert Eldemir
         </Typography>
       </Box>
 
