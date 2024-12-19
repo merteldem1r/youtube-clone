@@ -31,9 +31,9 @@ const Feed = () => {
           variant="body2"
           py={1}
           maxWidth={200}
-          sx={{ color: "#fff", opacity: ".9", textAlign:"center" }}
+          sx={{ color: "#fff", opacity: ".9", textAlign: "center" }}
         >
-          Implemented By Mert Eldemir
+          Developed By Mert Eldemir
         </Typography>
       </Box>
 
