@@ -57,3 +57,72 @@ Responsive dynamic web application created with ReactJS, developing **YouTube vi
 ### Project Preview
 
 <img width="400" src="https://user-images.githubusercontent.com/113149328/230723461-a9396656-0bc8-4086-bca5-5fdfbf524cee.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/230723442-0287b85a-6d3a-4e28-994c-87bdf8d4f619.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/230723502-b03924ca-dbfc-44ed-9714-d03ad0f84249.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/230723532-ff0f967b-6266-4491-84e3-b34706bbcc4a.png">
+
+# For React Projects
+
+There is some applications using React that built with [Vite](https://vitejs.dev/) and [Create React App](https://create-react-app.dev/).
+
+## Getting Started
+
+Follow the steps below to run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+## Running the Project
+
+### Vite
+
+If you are using Vite, run the following commands:
+
+```sh
+# Install dependencies
+npm install  # or yarn install
+
+# Start development server
+npm run dev  # or yarn dev
+```
+
+### Create React App (CRA)
+
+If you are using Create React App, run the following commands:
+
+```sh
+# Install dependencies
+npm install  # or yarn install
+
+# Start development server
+npm start  # or yarn start
+```
+
+## Building the Project
+
+### Vite
+
+To build the Vite project for production:
+
+```sh
+npm run build  # or yarn build
+```
+
+### Create React App (CRA)
+
+To build the Create React App project for production:
+
+```sh
+npm run build  # or yarn build
+```
+
+## Deployment
+
+After building, you can deploy the `dist/` (for Vite) or `build/` (for CRA) folder to any static hosting service such as:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+## License
+
+TenXWeb is licensed project under the [MIT License](LICENSE).
