@@ -4,7 +4,7 @@
 
 ## ✦ Meme Generator
 
-Meme Generator app that names says is generating app based on selecting picture and adding on that words that you want
+Meme Generator application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words that.
 
 - Live: https://mertleldem1r-meme-generator.netlify.app/
 
@@ -29,7 +29,7 @@ ReactJS Game; set your game settings, answer the questions and see your results.
 ## ✦ Youtube Clone
 
 React Youtube Clone project made with Material UI.
-Idea taken from Javascript Mastery
+Idea taken from Javascript Mastery.
 
 - Live: https://merteldem1r-youtube-clone.netlify.app/
 
