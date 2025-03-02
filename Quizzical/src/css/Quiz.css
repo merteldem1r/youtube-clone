@@ -1,0 +1,164 @@
+.quiz {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.question-box {
+  position: relative;
+}
+
+.question-box::after {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 0.5px;
+  background-color: rgb(68, 68, 68);
+  position: absolute;
+  bottom: -30px;
+}
+
+.question-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.options-box {
+  display: flex;
+  gap: 30px;
+}
+
+.option {
+  font-size: 14px;
+  padding: 5px 15px;
+  color: #293264;
+  cursor: pointer;
+  outline: 1px solid #4d5b9e;
+  border-radius: 8px !important;
+  transition: all 0.1s linear;
+}
+
+.option:hover {
+  background-color: #d6dbf5;
+}
+
+.darkmode .option {
+  color: #fff;
+  outline: 1px solid rgb(68, 68, 68);
+}
+
+.darkmode .option:hover {
+  color: #000;
+  background-color: #afbcff;
+}
+
+.darkmode .option.selected {
+  background-color: #afbcff;
+  color: #000;
+}
+
+.option.selected {
+  outline: none;
+  background-color: #d6dbf5;
+}
+
+.option.correct {
+  background-color: #94d7a2;
+}
+
+.darkmode .option.correct {
+  color: #000;
+  background-color: #4cb663;
+}
+
+.option.wrong {
+  background-color: #f8bcbc;
+}
+
+.darkmode .option.option.wrong {
+  color: #000;
+  background-color: #c36363;
+}
+
+.option.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.darkmode .option.disabled {
+  opacity: 0.5;
+}
+
+.option.correct.disabled {
+  opacity: 1;
+}
+
+.check-answers,
+.play-again,
+.change-settings {
+  padding: 10px 40px;
+  background-color: #4d5b9e;
+  font-size: 14px;
+  transition: all 0.1s linear;
+}
+
+.check-answers:hover,
+.play-again:hover {
+  opacity: 0.9;
+}
+
+.quiz-footer {
+  margin-top: 50px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.quiz-result {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3978;
+}
+
+.darkmode .quiz-result {
+  color: #778eff;
+}
+
+.change-settings {
+  padding: 5px 15px;
+  font-size: 15px;
+  background: none;
+  color: #293264;
+  background-color: rgb(244, 244, 244);
+}
+
+.darkmode .change-settings {
+  color: #fff;
+  background-color: rgb(36, 36, 36);
+}
+
+.change-settings:hover {
+  text-decoration: underline;
+}
+
+.question-number {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #4d5b9e;
+}
+
+.darkmode .question-number {
+  color: #293264;
+}
+
+.darkmode .question-number {
+  color: #778eff;
+}

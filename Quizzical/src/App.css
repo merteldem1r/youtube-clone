@@ -1,0 +1,23 @@
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all .2s linear;
+}
+
+main.darkmode {
+  background-color: #17181a;
+  color: #fff;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+

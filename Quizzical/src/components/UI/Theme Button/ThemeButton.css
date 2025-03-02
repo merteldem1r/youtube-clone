@@ -1,0 +1,57 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.dark-text, .light-text {
+  font-size: 14px;
+}
+
+.light-text {
+  color: #000;
+}
+
+.dark-text {
+  color: #c0c0c0;
+}
+
+.toggle-button {
+  padding: 11px 1.5px;
+  width: 40px;
+  background-color: #000;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-circle {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s linear;
+}
+
+.darkmode .toggle-circle {
+  background-color: #000;
+  right: 1.3px;
+}
+
+.darkmode .light-text {
+  color: #c0c0c0;
+}
+
+.darkmode .dark-text {
+  color: #fff;
+}
+
+.darkmode .toggle-button {
+  background-color: #fff;
+}

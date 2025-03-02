@@ -1,0 +1,41 @@
+.settings-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.setting {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.questions-num {
+  display: inline-block;
+  width: 15px;
+}
+
+.setting select {
+  padding: 7px 15px;
+  cursor: pointer;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 3px;
+  background-color: #fff;
+  transition: all 0.2s linear;
+}
+
+.darkmode .setting select {
+  color: #fff;
+  background-color: #1b1d21;
+  border: 1px solid rgb(50, 50, 50);
+}
+
+.darkmode .setting select option {
+  color: #fff;
+}
+
+input[type=range] {
+  cursor: pointer;
+}
