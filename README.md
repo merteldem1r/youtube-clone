@@ -1,6 +1,6 @@
 # TenXWeb - 10x Growth In Web Development 🚀
 
-**TenXWeb** is a my personal collection of **10 web development projects**, designed to take you from basic **vanilla JavaScript** to intermediate/advanced **ReactJS** and **Backend** development with **NodeJS**. 
+**TenXWeb** is my personal collection of **10 web development projects**, designed to take you from basic **vanilla JavaScript** to intermediate/advanced **ReactJS** and **Backend** development with **NodeJS**. 
 
 ## React Youtube Clone
 
