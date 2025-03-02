@@ -1,10 +1,14 @@
 # TenXWeb - 10x Growth In Web Development 🚀
 
-**TenXWeb** is my personal collection of **10 web development projects**, designed to take you from basic **vanilla JavaScript** to intermediate/advanced **ReactJS** and **Backend** development with **NodeJS**. 
+**TenXWeb** is my personal collection of **10 web development projects**, designed to take you from basic **vanilla JavaScript** to intermediate/advanced **ReactJS** and **Backend** development with **NodeJS**.
 
 ## ✦ Meme Generator
 
-Meme Generator application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words that.
+This ReactJS application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words that.
+
+Here have implemented basic but must-have topics of each dynamic web application. Creating ReactJS concepts such as components and combine them together.
+
+Making **API calls** to get random images for meme generation. Using standard **ReactJS hooks** such as ```useState``` and ```useEffect```.
 
 - Live: https://mertleldem1r-meme-generator.netlify.app/
 
@@ -18,9 +22,18 @@ Meme Generator application as the name says it is a small meme generating projec
 
 ReactJS Game; set your game settings, answer the questions and see your results. Questions taken from the free Trivia database.
 
+**Implementing some intermediate concepts** while creating this web-game project like: 
+
+**Reusable components** such as ```Loader```, 
+```Modal```, ```Theme Button``` etc.
+
+Creating seperate **util functions** to make line counts of components shorter and make code more **maintainable** & **reusable**. Implementing ```timer```, ```shuffle algorithm``` and ```options``` utility functions.
+
+Implementing **custom hooks** ```useFetching``` and ```useLocalStorage``` from scratch for our usage purposes.
+
 - Live: https://merteldem1r-quizzical.netlify.app/
 
-- Topics: **ReactJS**, **Web Game**, **Custom Hooks**, **API**, **Local Storage**, **Components**, **Dark Theme**, **Clone Project**
+- Topics: **ReactJS**, **Algorithms**, **Web Game**, **Custom Hooks**, **API**, **Local Storage**, **Components**, **Dark Theme**, **Clone Project**
 
 ### Project Preview
 
@@ -31,9 +44,15 @@ ReactJS Game; set your game settings, answer the questions and see your results.
 React Youtube Clone project made with Material UI.
 Idea taken from Javascript Mastery.
 
+Responsive dynamic web application created with ReactJS, developing **YouTube video platform clone project**. Using **Material UI** which is open-source React component library.
+
+**Reusable UI components**; ```Card```, ```SearchFeed```, ```Videos``` etc.
+
+**YouTube v3 API** from **Rapid API** platform, to make requests, getting and searching videos that published on YouTube.
+
 - Live: https://merteldem1r-youtube-clone.netlify.app/
 
-- Topics: **ReactJS**, **Material UI**, **API**, **Reusable Components**
+- Topics: **ReactJS**, **React Router**, **Material UI**, **API**, **Reusable Components**
 
 ### Project Preview
 
