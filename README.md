@@ -1,5 +1,11 @@
 # TenXWeb - 10x Growth In Web Development 🚀
 
+<p align="start">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nodejs,expressjs,redux,html,css,tailwind,materialui,postman,webstorm,vscode" />
+  </a>
+</p>
+
 **TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop with fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
 
 ## ✦ NEW YEAR COUNTDOWN
