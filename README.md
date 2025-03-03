@@ -11,6 +11,8 @@ foo
 
 ### Project Preview
 
+<img width="400" alt="SCR-20250304-blaw" src="https://github.com/user-attachments/assets/7b571416-958d-4d5f-90c1-84dc845dfe50" /> <img width="400" alt="SCR-20250304-bktt" src="https://github.com/user-attachments/assets/0a02fb50-dc86-4b74-af06-aff1eaaab55e" />
+
 ## ✦ MEME GENERATOR
 
 This ReactJS application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words on top of that.
