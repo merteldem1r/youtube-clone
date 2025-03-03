@@ -13,6 +13,8 @@ Implemented using **JavaScript**, **HTML** and **CSS**. Learning and creating **
 
 ### Project Preview
 
+<img width="400" alt="SCR-20250304-cgsb" src="https://github.com/user-attachments/assets/f1c34927-2c5c-4624-8e18-1ee5d67c889b" /> <img width="400" alt="SCR-20250304-cheo" src="https://github.com/user-attachments/assets/9870939e-e5a4-4ef1-846a-47512974dfa9" />
+
 ## ✦ MUSIC PLAYER
 
 Music Player application that allows you to **read mp3 files** and **play** them on the **web** application. Created using **vanilla JavaScript**, **HTML** and **CSS**.
