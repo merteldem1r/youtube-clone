@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #fff url("new-year.jpg") no-repeat fixed center;
+  background-size: cover;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  z-index: 5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.countdown-title {
+  font-size: 43px;
+}
+
+.countdown {
+  display: flex;
+  gap: 50px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 5px;
+}
+
+.countdown-item:not(:last-child):after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 55px;
+  background-color: #fff;
+  position: absolute;
+  right: -26px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.time-count {
+  font-size: 48px;
+}
+
+.time-name {
+  font-size: 14px;
+}
+
+.current-year {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}

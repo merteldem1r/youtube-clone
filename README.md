@@ -2,11 +2,22 @@
 
 **TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop with fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
 
+## ✦ NEW YEAR COUNTDOWN
+
+Small and simple but good looking **web page** where whe show **countdown to the New Year**.
+
+Implemented using **JavaScript**, **HTML** and **CSS**. Learning and creating **async** `setInterval` function and some small methods to **calculate dates**.
+
+- Live: https://merteldem1r.github.io/new-year-countdown/
+- Topics: **JavaScript**, **HTML**, **CSS**
+
+### Project Preview
+
 ## ✦ MUSIC PLAYER
 
 Music Player application that allows you to **read mp3 files** and **play** them on the **web** application. Created using **vanilla JavaScript**, **HTML** and **CSS**.
 
-Implementing player control functions with **JavaScript** and **Object Oriented Programming (OOP)**. Creating ```Music``` and ```MusicPlayer``` Classes with **control methods**. 
+Implementing player control functions with **JavaScript** and **Object Oriented Programming (OOP)**. Creating `Music` and `MusicPlayer` Classes with **control methods**.
 
 - Live: https://merteldem1r.github.io/musicPlayer.js/
 - Topics: **JavaScript**, **Object Oriented Programming**, **DOM**, **HTML**, **CSS**,
@@ -21,7 +32,7 @@ This ReactJS application as the name says it is a small meme generating project 
 
 Here have implemented basic but must-have topics of each dynamic web application. Creating ReactJS concepts such as components and combine them together.
 
-Making **API calls** to get random images for meme generation. Using standard **ReactJS hooks** such as ```useState``` and ```useEffect```.
+Making **API calls** to get random images for meme generation. Using standard **ReactJS hooks** such as `useState` and `useEffect`.
 
 - Live: https://mertleldem1r-meme-generator.netlify.app/
 
@@ -35,14 +46,14 @@ Making **API calls** to get random images for meme generation. Using standard **
 
 ReactJS Game; set your game settings, answer the questions and see your results. Questions taken from the free Trivia database.
 
-**Implementing some intermediate concepts** while creating this web-game project like: 
+**Implementing some intermediate concepts** while creating this web-game project like:
 
-**Reusable components** such as ```Loader```, 
-```Modal```, ```Theme Button``` etc.
+**Reusable components** such as `Loader`,
+`Modal`, `Theme Button` etc.
 
-Creating seperate **util functions** to make line counts of components shorter and make code more **maintainable** & **reusable**. Implementing ```timer```, ```shuffle algorithm``` and ```options``` utility functions.
+Creating seperate **util functions** to make line counts of components shorter and make code more **maintainable** & **reusable**. Implementing `timer`, `shuffle algorithm` and `options` utility functions.
 
-Implementing **custom hooks** ```useFetching``` and ```useLocalStorage``` from scratch for our usage purposes.
+Implementing **custom hooks** `useFetching` and `useLocalStorage` from scratch for our usage purposes.
 
 - Live: https://merteldem1r-quizzical.netlify.app/
 
@@ -59,7 +70,7 @@ Idea taken from Javascript Mastery.
 
 Responsive dynamic web application created with ReactJS, developing **YouTube video platform clone project**. Using **Material UI** which is open-source React component library.
 
-**Reusable UI components**; ```Card```, ```SearchFeed```, ```Videos``` etc.
+**Reusable UI components**; `Card`, `SearchFeed`, `Videos` etc.
 
 **YouTube v3 API** from **Rapid API** platform, to make requests, getting and searching videos that published on YouTube.
 
@@ -82,6 +93,7 @@ Follow the steps below to run the project locally.
 ### Prerequisites
 
 Make sure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (LTS version recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
@@ -132,6 +144,7 @@ npm run build  # or yarn build
 ## Deployment
 
 After building, you can deploy the `dist/` (for Vite) or `build/` (for CRA) folder to any static hosting service such as:
+
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 - [GitHub Pages](https://pages.github.com/)

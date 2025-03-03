@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>New Year Countdown</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="countdown-title">
+        <span style="color: rgb(211, 0, 0)">NEW YEAR </span>COUNTDOWN
+      </h1>
+
+      <div class="countdown">
+        <div class="countdown-item">
+          <div class="time-count" id="days">00</div>
+          <span class="time-name">DAYS</span>
+        </div>
+
+        <div class="countdown-item">
+          <div class="time-count" id="hours">00</div>
+          <span class="time-name">HOURS</span>
+        </div>
+
+        <div class="countdown-item">
+          <div class="time-count" id="minutes">00</div>
+          <span class="time-name">MINUTES</span>
+        </div>
+
+        <div class="countdown-item">
+          <div style="color: rgb(211, 0, 0)" class="time-count" id="seconds">
+            00
+          </div>
+          <span class="time-name">SECONDS</span>
+        </div>
+      </div>
+      <!-- .countdown -->
+
+      <div class="current-year">
+        Current Year
+        <span
+          style="color: rgb(211, 0, 0); font-weight: 600"
+          id="currentYear"
+        ></span>
+      </div>
+    </div>
+    <!-- .container -->
+
+    <div class="overlay"></div>
+  </body>
+</html>
