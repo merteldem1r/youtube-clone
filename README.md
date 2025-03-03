@@ -21,7 +21,7 @@ Music Player application that allows you to **read mp3 files** and **play** them
 
 Implementing player control functions with **JavaScript** and **Object Oriented Programming (OOP)**. Creating `Music` and `MusicPlayer` Classes with **control methods**.
 
-- Live: https://merteldem1r.github.io/musicPlayer.js/
+- Live: https://music-player-merteldem1r.netlify.app/
 - Topics: **JavaScript**, **Object Oriented Programming**, **DOM**, **HTML**, **CSS**,
 
 ### Project Preview
