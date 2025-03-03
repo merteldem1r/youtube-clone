@@ -2,7 +2,7 @@
 
 **TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop with fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
 
-## ✦ Meme Generator
+## ✦ MEME GENERATOR
 
 This ReactJS application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words on top of that.
 
@@ -18,7 +18,7 @@ Making **API calls** to get random images for meme generation. Using standard **
 
 <img width="400" src="https://github.com/user-attachments/assets/9621cdae-fe3c-4c24-b115-0247988cb09f"> <img width="400" src="https://github.com/user-attachments/assets/c1d7c04a-206c-4712-820a-47342b66e6a8">
 
-## ✦ Quizzical Game
+## ✦ QUIZZICAL GAME
 
 ReactJS Game; set your game settings, answer the questions and see your results. Questions taken from the free Trivia database.
 
@@ -39,7 +39,7 @@ Implementing **custom hooks** ```useFetching``` and ```useLocalStorage``` from s
 
 <img width="400" src="https://user-images.githubusercontent.com/113149328/227804144-403f549b-ddc3-4f6a-8712-ee916c874407.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/227804153-e173bac8-d6ed-41ce-801e-fd53e2fa12d1.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/227804163-d099be68-c3c2-41de-9a19-ed6bb467d63f.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/227804177-2c122a87-57e5-4e16-a676-85ed29690675.png">
 
-## ✦ Youtube Clone
+## ✦ YOUTUBE CLONE
 
 React Youtube Clone project made with Material UI.
 Idea taken from Javascript Mastery.
