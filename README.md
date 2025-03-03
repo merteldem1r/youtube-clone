@@ -4,10 +4,12 @@
 
 ## ✦ MUSIC PLAYER
 
-foo
+Music Player application that allows you to **read mp3 files** and **play** them on the **web** application. Created using **vanilla JavaScript**, **HTML** and **CSS**.
+
+Implementing player control functions with **JavaScript** and **Object Oriented Programming (OOP)**. Creating ```Music``` and ```MusicPlayer``` Classes with **control methods**. 
 
 - Live: https://merteldem1r.github.io/musicPlayer.js/
-- Topics: JavaScript, OOP, HTML, CSS,
+- Topics: **JavaScript**, **Object Oriented Programming**, **DOM**, **HTML**, **CSS**,
 
 ### Project Preview
 
