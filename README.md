@@ -4,7 +4,7 @@
 
 ## ✦ Meme Generator
 
-This ReactJS application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words that.
+This ReactJS application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words on top of that.
 
 Here have implemented basic but must-have topics of each dynamic web application. Creating ReactJS concepts such as components and combine them together.
 
