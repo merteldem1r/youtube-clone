@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/music.js" defer></script>
+    <script src="js/musicplayer.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Music Player</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <div class="container">
+          <nav>
+            <div class="header-title">Music Player</div>
+            <div class="header-icon">▶︎ •၊၊||၊|။|||| |</div>
+          </nav>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <div class="player-container">
+            <div class="player">
+              <div class="img-container">
+                <img id="music-image" src="" alt="" />
+              </div>
+
+              <audio id="audio" src=""></audio>
+
+              <div class="content">
+                <div id="music-details">
+                  <p class="title"></p>
+                  <p class="singer"></p>
+                </div>
+
+                <hr />
+
+                <div class="progress">
+                  <input id="progress-bar" type="range" max="325" />
+                  <div class="times">
+                    <span id="curent-time">0:00</span>
+                    <span id="duration">5:25</span>
+                  </div>
+                </div>
+
+                <div id="controls">
+                  <button id="prev">
+                    <i class="fa-solid fa-backward-step small"></i>
+                  </button>
+                  <button class="btn-big" id="play">
+                    <i class="fa-solid fa-play"></i>
+                  </button>
+                  <button id="next">
+                    <i class="fa-solid fa-forward-step small"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="player-footer">
+                <div class="list">
+                  <button id="list"><i class="fa-solid fa-list"></i></button>
+                </div>
+                <div class="volum-container">
+                  <i class="fa-solid fa-volume-high"></i>
+                  <input id="volume" type="range" max="100" value="100" />
+                </div>
+              </div>
+
+              <div class="music-list">
+                <ul>
+                  <li class="" id="list-music">
+                    <span>Kosandra - Miyagi & Andy Panda</span>
+                    <div class="time-box">3:40</div>
+                  </li>
+                  <li class="" id="list-music">
+                    <span>After Dark - Mr. Kitty</span>
+                    <div class="time-box">4:17</div>
+                  </li>
+                  <li class="" id="list-music">
+                    <span>Kino - Macan</span>
+                    <div class="time-box">3:04</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="footer-inner">
+            <div>Developed by <span class="author"><a href="https://github.com/merteldem1r" target="_blank">Mert Eldemir</a></span></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

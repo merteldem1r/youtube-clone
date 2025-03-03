@@ -2,6 +2,15 @@
 
 **TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop with fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
 
+## ✦ MUSIC PLAYER
+
+foo
+
+- Live: https://merteldem1r.github.io/musicPlayer.js/
+- Topics: JavaScript, OOP, HTML, CSS,
+
+### Project Preview
+
 ## ✦ MEME GENERATOR
 
 This ReactJS application as the name says it is a small meme generating project based on randomly fetched meme picture and adding words on top of that.
