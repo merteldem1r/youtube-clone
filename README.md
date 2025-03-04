@@ -6,9 +6,9 @@
   </a>
 </p>
 
-**TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop with fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
+**TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop from fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
 
-**NOTE**: **None** of **AI tools** were used while developing
+**NOTE**: **None** of **AI tools were used** while developing projects.
 
 ## ✦ NEW YEAR COUNTDOWN
 
@@ -67,7 +67,7 @@ Implementing **custom hooks** `useFetching` and `useLocalStorage` from scratch f
 
 - Live: https://merteldem1r-quizzical.netlify.app/
 
-- Topics: **ReactJS**, **Algorithms**, **Web Game**, **Custom Hooks**, **API**, **Local Storage**, **Components**, **Dark Theme**, **Clone Project**
+- Topics: **ReactJS**, **Algorithms**, **Web Game**, **Custom Hooks**, **API**, **Local Storage**, **Components**, **Dark Theme**
 
 ### Project Preview
 
