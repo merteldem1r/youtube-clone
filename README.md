@@ -8,6 +8,8 @@
 
 **TenXWeb** is my personal collection of **10 different Web development projects**, designed to develop with fundamental concepts of **vanilla JavaScript** to intermediate & advanced **ReactJS** and **Backend** applications with **NodeJS**.
 
+**NOTE**: **None** of **AI tools** were used while developing
+
 ## ✦ NEW YEAR COUNTDOWN
 
 Small and simple but good looking **web page** where whe show **countdown to the New Year**.
@@ -50,6 +52,20 @@ Making **API calls** to get random images for meme generation. Using standard **
 
 <img width="400" src="https://github.com/user-attachments/assets/9621cdae-fe3c-4c24-b115-0247988cb09f"> <img width="400" src="https://github.com/user-attachments/assets/c1d7c04a-206c-4712-820a-47342b66e6a8">
 
+## ✦ VANLIFE
+
+**Vanlife** is a **multipage dynamic ReactJS application** where the main purpose is implementing concepts of **React Router** and **Fake API fetching**.
+
+Complete illustration of using ```RouterProvider```, ```createBrowserRouter``` and ```Route``` functions for multipage application with React. Multipage routing for main pages, vans and each van.
+
+Custom ```useFetching``` hook for our ```vansService.js``` functions to simulate API fetching. 
+
+**Reusable UI components**; ```button```, ```Loader```, ```Error``` etc.
+
+### Project Preview
+
+<img width="250" src="https://user-images.githubusercontent.com/113149328/227801952-2d484883-c782-42f8-8380-416676f933d4.png">
+
 ## ✦ QUIZZICAL GAME
 
 ReactJS Game; set your game settings, answer the questions and see your results. Questions taken from the free Trivia database.
@@ -89,6 +105,8 @@ Responsive dynamic web application created with ReactJS, developing **YouTube vi
 ### Project Preview
 
 <img width="400" src="https://user-images.githubusercontent.com/113149328/230723461-a9396656-0bc8-4086-bca5-5fdfbf524cee.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/230723442-0287b85a-6d3a-4e28-994c-87bdf8d4f619.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/230723502-b03924ca-dbfc-44ed-9714-d03ad0f84249.png"> <img width="400" src="https://user-images.githubusercontent.com/113149328/230723532-ff0f967b-6266-4491-84e3-b34706bbcc4a.png">
+
+**NOTE**: Project idea taken from [JavaScript Mastery](https://www.youtube.com/@javascriptmastery/featured)
 
 # For React Projects
 

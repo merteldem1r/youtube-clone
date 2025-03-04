@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  body {
+    background-color: #fcf1e5;
+  }
+}
+
+@layer components {
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 15px;
+  }
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  .filter-btn {
+    padding: 8px 15px;
+    background-color: #ffead0;
+    border-radius: 5px;
+  }
+  .type {
+    color: #fff;
+    padding: 0.25rem 1.5rem;
+    border-radius: 3px;
+  }
+  .simple {
+    background-color: #840000;
+  }
+  .luxury {
+    background-color: #161616;
+  }
+  .rugged {
+    background-color: #115e59;
+  }
+  .host-navLink {
+    @apply hover:scale-[1.07] hover:underline opacity-[.65] cursor-pointer;
+  }
+  .host-navLink.active {
+    @apply hover:scale-[1] font-bold underline opacity-100;
+  }
+  .filter-btn {
+    @apply text-[13px] sm:text-[16px] hover:text-white;
+  }
+}
